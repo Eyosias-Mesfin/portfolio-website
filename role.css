@@ -6,51 +6,37 @@ body {
   background-position: center;
   font-family: 'Inter', sans-serif;
 }
-
-/* NAVBAR */
 .navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 45px;
-
   margin: 1.5rem 60px 0 60px;
   padding: 20px 60px;
-
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
   position: relative;
 }
-
-/* NAV LINKS */
 .navigation a {
   text-decoration: none;
   color: #ffffff;
-
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2px;
-
   position: relative;
   padding: 6px 0;
 }
-
-/* ACTIVE / HOVER INDICATOR */
 .navigation a::after {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
-  bottom: -22px; /* aligns exactly with navbar bottom border */
+  bottom: -22px;
   width: 0;
   height: 2px;
-
-  background-color: #3b82f6;
+  background-color: rgb(0,255,255);
   transition: width 0.25s ease;
   border-radius: 2px;
 }
-
-/* SHOW INDICATOR */
 .navigation a:hover::after,
 .navigation a.active::after,
 .navigation a[aria-current="page"]::after {
