@@ -46,3 +46,62 @@ body {
 .navigation a[aria-current="page"]::after {
   width: 100%;
 }
+.container {
+  display: flex;
+  align-items: center;    
+  justify-content: space-between;
+  padding-left: 150px;
+  
+}
+.text-container {
+  max-width: 600px;
+  width: 100%;
+}
+.title {
+  color: rgb(27, 146, 250);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.description {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  width: 100%;
+}
+.par{
+  color: rgb(27, 146, 250);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.contain{
+  display: flex;
+  align-items: center;    
+  justify-content: space-between;
+  padding: 25px 150px;
+}
+.paragraph-container {
+  max-width: 600px;
+  width: 100%;
+}
+.des{
+  color: rgba(255, 255, 255, 0.75);;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  width: 100%;
+}
