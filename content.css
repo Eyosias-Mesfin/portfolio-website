@@ -1,4 +1,3 @@
-/* RESET */
 * {
   box-sizing: border-box;
 }
@@ -10,20 +9,15 @@ body {
   font-family: 'Inter', sans-serif;
   color: white;
 }
-
-/* NAVBAR */
 .navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 45px;
-
   margin: 1.5rem 60px 0;
   padding: 20px 60px;
-
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
-
 .navigation a {
   text-decoration: none;
   color: white;
@@ -32,7 +26,6 @@ body {
   position: relative;
   padding: 6px 0;
 }
-
 .navigation a::after {
   content: "";
   position: absolute;
@@ -44,31 +37,24 @@ body {
   background: rgb(0, 255, 255);
   transition: width 0.25s ease;
 }
-
 .navigation a:hover::after,
 .navigation a[aria-current="page"]::after {
   width: 100%;
 }
-
-/* SHARED SECTION ALIGNMENT */
 .section {
   padding-left: 150px;
   padding-right: 150px;
   margin-top: 60px;
 }
-
-/* ABOUT ME */
 .text-container {
   max-width: 600px;
 }
-
 .title {
   color: #3b82f6;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 12px;
 }
-
 .description {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
@@ -78,31 +64,24 @@ body {
   color: rgba(255, 255, 255, 0.85);
   transition: transform 0.25s ease, background 0.25s ease;
 }
-
 .description:hover {
   transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.08);
 }
-/* SKILLS */
 .paragraph-container {
   max-width: 650px;
 }
-
 .par {
   color: #3b82f6;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
 }
-
-/* GRID */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
-
-/* SKILL CARD */
 .skill-card {
   display: flex;
   align-items: center;
@@ -123,26 +102,20 @@ body {
   border-radius: 10px;
   flex-shrink: 0;
 }
-
 .skill-card b {
   color: white;
 }
-
 .skill-card:hover {
   transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.08);
 }
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .section {
     padding: 20px;
   }
-
   .skills-grid {
     grid-template-columns: 1fr;
   }
-
   .navigation {
     justify-content: center;
   }
