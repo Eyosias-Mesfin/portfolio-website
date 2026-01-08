@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="content.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="content.css">
 </head>
 <body>
-        <nav class="navigation">
-            <a href="home.html">Home</a>
-            <a href="content.html" aria-current="page">Content</a>
-            <a href="role.html">Role</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="help.html">Help</a>
-        </nav>
-<div class="container">
-  <div class="text-container">
-    <p class="title">About Me</p>
-    <p class="description">
-      I am a student developer passionate about web technologies,<br>
-      UI design and problem-solving. Currently, I'm learning and<br>
-      building projects with HTML, CSS and Javascript, with plans to<br>
-      explore frameworks like React in the future.
-    </p>
-  </div>
-</div>
-<div class="contain">
-    <div class="paragraph-container">
-    <p class="par">Skills and experience</p>
-    <p class="des"><span>Programming Languages</span><br>HTML, CSS, Javascript</p>
-    </div>
-</div>
 
-        
+  <!-- NAVIGATION -->
+  <nav class="navigation">
+    <a href="home.html">Home</a>
+    <a href="content.html" aria-current="page">Content</a>
+    <a href="role.html">Role</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="help.html">Help</a>
+  </nav>
+
+  <!-- ABOUT ME -->
+  <section class="section">
+    <div class="text-container">
+      <p class="title">About Me</p>
+      <p class="description">
+        I am a student developer passionate about web technologies,
+        UI design and problem-solving. Currently, I'm learning and
+        building projects with HTML, CSS and JavaScript, with plans
+        to explore frameworks like React in the future.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <div class="paragraph-container">
+      <p class="par">Skills and Experience</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="img/programming languages.png">
+          <p><b>Programming Languages</b><br>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="img/tools.png">
+          <p><b>Tools</b><br>Git, GitHub, VS Code, Figma</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="img/soft skills.png">
+          <p><b>Soft Skills</b><br>Problem-Solving, Teamwork, Adaptability</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="img/learning experiance.png">
+          <p><b>Learning Experience</b><br>Always exploring new technologies and improving my coding skills through self-study.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
