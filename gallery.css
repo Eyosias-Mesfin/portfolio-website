@@ -44,3 +44,130 @@ body {
 .navigation a[aria-current="page"]::after {
   width: 100%;
 }
+.title-one{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 7px auto;
+  text-align: center;
+  align-items: center;
+  color: #8ab4f8;
+  font-weight: 600;
+  max-width: 136px;
+  width: 100%;
+}
+.title-two{
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  margin: 7px auto;
+  text-align: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  max-width: 300px;
+  width: 100%;
+}
+.division-1, .division-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin: 2.4rem auto;
+}
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+ background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    width: 370px;
+    height: 430px;
+    border-radius: 14px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+}
+
+a{
+  text-decoration: none;
+}
+.title-three{
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.paragraph-one{
+  font-size: larger;
+  margin-left: 15px;
+  
+}
+.paragraph-two{
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  margin-left: 15px;
+}
+.image-one{
+  width: 92%;
+  height: 200px;
+  border-radius: 6px;
+  margin: 2px auto;
+  transition: 0.2s;
+}
+.section-one{
+  display: flex;
+  gap: 20px;
+  margin-left: 15px;
+}
+.section-one p{
+  display: inline;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 17px 17px 17px 17px;
+  border-radius: 15px; 
+  transition: 0.1s;
+}
+.section-one p:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.2);
+}
+.section-two{
+  display: flex;
+  gap: 20px;
+  margin-left: 15px;
+}
+.button-one{
+  display: inline;
+  background-color: #2563EB;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 7px;
+  font-weight: 300;
+  font-size: 17px;
+  width: 137px;
+  
+}
+.button-two{
+  display: inline;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 7px;
+  font-weight: 300;
+  font-size: 17px;
+  width: 137px;
+}
+.button-one:hover{
+    background-color: #053db7ed;
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+.button-two:hover{
+    background-color: rgb(209, 208, 208);
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
