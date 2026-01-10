@@ -76,7 +76,7 @@ body {
     margin: 2.4rem auto;
 }
 .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
- background: rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid rgba(255, 255, 255, 0.12);
