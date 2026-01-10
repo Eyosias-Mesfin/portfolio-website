@@ -171,3 +171,81 @@ a{
     transition: 0.2s;
     transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .navigation {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    gap: 12px;
+    padding: 12px 16px;
+    margin: 0 auto;
+  }
+  .title-one {
+    font-size: clamp(28px, 6vw, 40px);
+    max-width: none;
+    margin-top: 18px;
+  }
+  .title-two {
+    font-size: 14px;
+    max-width: 90%;
+    margin: 8px auto 16px auto;
+    text-align: center;
+  }
+  .division-1, .division-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 1.5rem auto;
+    padding: 0 12px;
+  }
+  .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    min-height: unset;
+    padding-bottom: 18px;
+    margin: 0 auto;
+  }
+  .image-one {
+    width: 100%;
+    height: auto;
+    margin: 12px auto;
+  }
+  .section-one, .section-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 0;
+    padding: 0 12px 12px 12px;
+    justify-content: center;
+  }
+  .button-one{
+    width: 140px;
+  }
+  .button-two{
+    width: 140px;
+  }
+  .paragraph-one, .paragraph-two {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .title-one { font-size: 26px; }
+  .title-two { font-size: 13px; }
+  .button-one, .button-two { width: 100%; max-width: none; }
+  .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 { padding: 12px; }
+  .paragraph-one, .paragraph-two { margin-left: 8px; margin-right: 8px; }
+}
